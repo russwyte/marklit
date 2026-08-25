@@ -6,7 +6,7 @@ import zipx.*
   * sbt-pgp is not a row: zipx already brings it in.
   */
 object MyVersions extends ZipxVersions:
-  val sbt: SbtVersion = SbtVersion("2.0.6")
+  val sbt: SbtVersion = SbtVersion("2.0.7")
   val scala: ScalaVersion = ScalaVersion("3.8.4")
 
   /** Oldest supported 3.x for the dotc shim. Not a catalog row. */
