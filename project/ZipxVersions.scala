@@ -29,7 +29,7 @@ object MyVersions extends ZipxVersions:
   val scala3Compiler = Lib("org.scala-lang", "scala3-compiler", "3.3.8")
   val scalaCompiler = Lib("org.scala-lang", "scala-compiler", "2.13.18").java
 
-  val assembly = Plugin("com.eed3si9n", "sbt-assembly", "2.4.2")
+  val assembly = Plugin("com.eed3si9n", "sbt-assembly", "2.5.0")
   val scalafmt = Plugin("org.scalameta", "sbt-scalafmt", "2.6.2")
   val dynver = Plugin("com.github.sbt", "sbt-dynver", "5.1.1")
 
