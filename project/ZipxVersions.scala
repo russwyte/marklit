@@ -19,7 +19,7 @@ object MyVersions extends ZipxVersions:
   val zioStreams = zio.mod("zio-streams")
   val zioTest = zio.mod("zio-test")
   val zioTestSbt = zio.mod("zio-test-sbt")
-  val zioJson = Lib("dev.zio", "zio-json", "0.10.0")
+  val zioJson = Lib("dev.zio", "zio-json", "1.0.0")
   val zioCli = Lib("dev.zio", "zio-cli", "0.8.2")
 
   val fastparse = Lib("com.lihaoyi", "fastparse", "3.1.1")
@@ -29,7 +29,7 @@ object MyVersions extends ZipxVersions:
   val scala3Compiler = Lib("org.scala-lang", "scala3-compiler", "3.3.8")
   val scalaCompiler = Lib("org.scala-lang", "scala-compiler", "2.13.18").java
 
-  val assembly = Plugin("com.eed3si9n", "sbt-assembly", "2.4.2")
+  val assembly = Plugin("com.eed3si9n", "sbt-assembly", "2.5.0")
   val scalafmt = Plugin("org.scalameta", "sbt-scalafmt", "2.6.2")
   val dynver = Plugin("com.github.sbt", "sbt-dynver", "5.1.1")
 
